@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
@@ -13,9 +13,10 @@ const Navbar = () => {
 			className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
 		>
 			<div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
-				<Link
-					to='/'
-					className='flex items-center gap-2 '
+				{/* Logo */}
+				<a
+					href='/'
+					className='flex items-center gap-2'
 					onClick={() => {
 						setActive('');
 						window.scrollTo(0, 0);
@@ -25,10 +26,10 @@ const Navbar = () => {
 						<img src={logo} alt='logo' className='w-full h-full object-cover' />
 					</div>
 					<p className='text-white text-[18px] font-bold cursor-pointer flex'>
-						Bunyod Abdullaev &nbsp;
+						Bunyod Abdullaev&nbsp;
 						<span className='sm:block hidden'>| Developer</span>
 					</p>
-				</Link>
+				</a>
 				{/* Desktop Navigation */}
 				<ul className='list-none hidden sm:flex flex-row gap-10'>
 					{navLinks.map((link) => (
@@ -37,11 +38,17 @@ const Navbar = () => {
 							className={`${
 								active === link.title ? 'text-white' : 'text-secondary'
 							} font-poppins font-medium cursor-pointer text-[16px]`}
-							onClick={() => {
-								setActive(link.title);
-							}}
+							onClick={() => setActive(link.title)}
 						>
-							<a href={`#${link.id}`}>{link.title}</a>
+							<Link
+								to={link.id}
+								spy={true}
+								smooth={true}
+								offset={-70} // Adjust this value based on your navbar height
+								duration={500}
+							>
+								{link.title}
+							</Link>
 						</li>
 					))}
 				</ul>
@@ -66,11 +73,19 @@ const Navbar = () => {
 										active === link.title ? 'text-white' : 'text-secondary'
 									} hover:text-white text-[18px] font-medium cursor-pointer`}
 									onClick={() => {
-										setActive(link.title); // Set active link
-										setToggle(false); // Close menu
+										setActive(link.title);
+										setToggle(false);
 									}}
 								>
-									<a href={`#${link.id}`}>{link.title}</a>
+									<Link
+										to={link.id}
+										spy={true}
+										smooth={true}
+										offset={-70}
+										duration={500}
+									>
+										{link.title}
+									</Link>
 								</li>
 							))}
 						</ul>

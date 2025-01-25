@@ -32,7 +32,11 @@ export const navLinks = [
 	},
 	{
 		id: 'work',
-		title: 'Work',
+		title: 'Experience',
+	},
+	{
+		id: 'projects',
+		title: 'Projects',
 	},
 	{
 		id: 'contact',
@@ -42,20 +46,12 @@ export const navLinks = [
 
 const services = [
 	{
-		title: 'Web Developer',
+		title: 'Frontend Developer',
 		icon: web,
 	},
 	{
-		title: 'React Native Developer',
+		title: 'QA Engineer',
 		icon: mobile,
-	},
-	{
-		title: 'Next.js Developer',
-		icon: backend,
-	},
-	{
-		title: 'Content Creator',
-		icon: creator,
 	},
 ];
 
@@ -80,10 +76,7 @@ const technologies = [
 		name: 'React JS',
 		icon: reactjs,
 	},
-	{
-		name: 'Redux Toolkit',
-		icon: redux,
-	},
+
 	{
 		name: 'Tailwind CSS',
 		icon: tailwind,
@@ -92,10 +85,7 @@ const technologies = [
 		name: 'Node JS',
 		icon: nodejs,
 	},
-	{
-		name: 'MongoDB',
-		icon: mongodb,
-	},
+
 	{
 		name: 'Three JS',
 		icon: threejs,
@@ -108,15 +98,11 @@ const technologies = [
 		name: 'figma',
 		icon: figma,
 	},
-	{
-		name: 'docker',
-		icon: docker,
-	},
 ];
 
 const experiences = [
 	{
-		title: 'Front-End Developer',
+		title: 'Frontend Developer',
 		company_name: 'Independent Learning',
 		icon: meta,
 		iconBg: '#E6DEDD',
@@ -130,7 +116,7 @@ const experiences = [
 		],
 	},
 	{
-		title: 'Quality Assurance',
+		title: 'Manual QA Engineer',
 		company_name: 'Najot Talim',
 		icon: tesla,
 		iconBg: '#E6DEDD',
@@ -144,10 +130,10 @@ const experiences = [
 	},
 	{
 		title: 'University Student',
-		company_name: 'MDIST in Tashkent',
+		company_name: 'MDIS in Tashkent',
 		icon: starbucks,
 		iconBg: '#383E56',
-		date: 'September 2020 - May 2024',
+		date: 'Sep 2020 - May 2024',
 		points: [
 			'Studied at the Management Development Institute of Singapore in Tashkent (MDIST).',
 			'Specialized in Computer Information Systems for Businesss',
@@ -194,12 +180,12 @@ const projects = [
 			' This dynamic platform is a movie database built using Next.js for fast server-side rendering and optimized performance. It offers a rich user experience by showcasing an extensive collection of movies with detailed descriptions, ratings, and categorized section. Users can explore trending titles and discover highly-rated movies effortlessly.',
 		tags: [
 			{
-				name: 'Next.js 14',
+				name: 'next.js',
 				color: 'blue-text-gradient',
 			},
 
 			{
-				name: 'Tailwind',
+				name: 'tailwind',
 				color: 'pink-text-gradient',
 			},
 		],
@@ -216,12 +202,12 @@ const projects = [
 			'This To-Do List Website is a sleek and modern task management application designed to help users organize their daily tasks efficiently. Built with React for a dynamic and interactive user experience, and styled with Tailwind CSS for a clean and responsive design, it offers intuitive features that make managing tasks effortless and enjoyable for all types of users.',
 		tags: [
 			{
-				name: 'Next.js 14',
+				name: 'next.js',
 				color: 'blue-text-gradient',
 			},
 
 			{
-				name: 'Tailwind',
+				name: 'tailwind',
 				color: 'pink-text-gradient',
 			},
 		],
