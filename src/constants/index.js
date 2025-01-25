@@ -122,11 +122,11 @@ const experiences = [
 		iconBg: '#E6DEDD',
 		date: 'Nov 2024 - Present',
 		points: [
-			'Currently learning Next.js and React to build scalable, high-performance web applications.',
+			'Currently learning Next.js and React to build scalable, high-performance web applications',
 
-			'Previously completed training in HTML, CSS, and JavaScript, where I gained foundational skills in web development.',
-			'These are  creating responsive layouts, implementing interactive UI elements, and understanding core programming concepts',
-			'These skills laid the groundwork for my current exploration of modern frameworks like React and Next.js.',
+			'Working on self-initiated projects to apply knowledge and enhance hands-on experience.',
+			'Gained a solid foundation in HTML, CSS, and JavaScript, focusing on web development fundamentals.',
+			'Learned to create responsive and visually appealing web pages with modern design techniques.',
 		],
 	},
 	{
