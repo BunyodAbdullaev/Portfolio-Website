@@ -124,7 +124,8 @@ const experiences = [
 		points: [
 			'Currently learning Next.js and React to build scalable, high-performance web applications.',
 
-			'Previously completed training in HTML, CSS, and JavaScript, where I gained foundational skills in web development, including creating responsive layouts, implementing interactive UI elements, and understanding core programming concepts.',
+			'Previously completed training in HTML, CSS, and JavaScript, where I gained foundational skills in web development.',
+			'These are  creating responsive layouts, implementing interactive UI elements, and understanding core programming concepts',
 			'These skills laid the groundwork for my current exploration of modern frameworks like React and Next.js.',
 		],
 	},
