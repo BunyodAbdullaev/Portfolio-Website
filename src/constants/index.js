@@ -21,7 +21,6 @@ import {
 	shopify,
 	carrent,
 	jobit,
-	tripguide,
 	threejs,
 } from '../assets';
 
@@ -116,29 +115,16 @@ const technologies = [
 
 const experiences = [
 	{
-		title: 'University Student',
-		company_name: 'MDIST in Tashkent',
-		icon: starbucks,
-		iconBg: '#383E56',
-		date: 'September 2020 - May 2024',
-		points: [
-			'Studied at the Management Development Institute of Singapore in Tashkent (MDIST).',
-			'Specialized in Computer Information Systems for Businesss',
-			'Learned to implement responsive designs and ensure cross-browser compatibility.',
-			'Worked on academic projects, enhancing teamwork and problem-solving skills in the field of information systems.',
-		],
-	},
-	{
-		title: 'Quality Assurance',
-		company_name: 'Najot Talim',
-		icon: tesla,
+		title: 'Front-End Developer',
+		company_name: 'Independent Learning',
+		icon: meta,
 		iconBg: '#E6DEDD',
-		date: 'Jan 2024 - May 2024',
+		date: 'Dec 2024 - Present',
 		points: [
-			'Graduated from a QA course, gaining expertise in quality assurance principles and practices.',
-			'Specialized in functional testing, test case creation, bug reporting, and ensuring software quality.',
-			'Acquired hands-on experience with defect tracking tools like Trello.',
-			'Developed strong skills in identifying, documenting, and resolving software issues to meet user requirements.',
+			'Currently learning Next.js and React to build scalable, high-performance web applications.',
+			'Exploring features like Server-Side Rendering (SSR), Static Site Generation (SSG), and API routes in Next.js.',
+			'Practicing state management, React hooks, and component-driven architecture for dynamic user interfaces.',
+			'Working on self-initiated projects to apply knowledge and enhance hands-on experience.',
 		],
 	},
 	{
@@ -155,16 +141,29 @@ const experiences = [
 		],
 	},
 	{
-		title: 'Front-End Developer',
-		company_name: 'Independent Learning',
-		icon: meta,
+		title: 'Quality Assurance',
+		company_name: 'Najot Talim',
+		icon: tesla,
 		iconBg: '#E6DEDD',
-		date: 'Dec 2024 - Present',
+		date: 'Jan 2024 - May 2024',
 		points: [
-			'Currently learning Next.js and React to build scalable, high-performance web applications.',
-			'Exploring features like Server-Side Rendering (SSR), Static Site Generation (SSG), and API routes in Next.js.',
-			'Practicing state management, React hooks, and component-driven architecture for dynamic user interfaces.',
-			'Working on self-initiated projects to apply knowledge and enhance hands-on experience.',
+			'Graduated from a QA course, gaining expertise in quality assurance principles and practices.',
+			'Specialized in functional testing, test case creation, bug reporting, and ensuring software quality.',
+			'Acquired hands-on experience with defect tracking tools like Trello.',
+			'Developed strong skills in identifying, documenting, and resolving software issues to meet user requirements.',
+		],
+	},
+	{
+		title: 'University Student',
+		company_name: 'MDIST in Tashkent',
+		icon: starbucks,
+		iconBg: '#383E56',
+		date: 'September 2020 - May 2024',
+		points: [
+			'Studied at the Management Development Institute of Singapore in Tashkent (MDIST).',
+			'Specialized in Computer Information Systems for Businesss',
+			'Learned to implement responsive designs and ensure cross-browser compatibility.',
+			'Worked on academic projects, enhancing teamwork and problem-solving skills in the field of information systems.',
 		],
 	},
 ];
@@ -203,19 +202,21 @@ const projects = [
 	{
 		name: 'IMDB Clone',
 		description:
-			'This website is a dynamic movie and TV show database, inspired by IMDb, and built using Next.js for fast, server-side rendering and optimized performance. The platform offers a rich user experience, showcasing an extensive collection of movies, TV shows, and celebrity profiles. Users can explore trending titles, detailed cast and crew information, reviews, and ratings',
+			' This dynamic platform is a movie database built using Next.js for fast server-side rendering and optimized performance. It offers a rich user experience by showcasing an extensive collection of movies with detailed descriptions, ratings, and categorized section. Users can explore trending titles and discover highly-rated movies effortlessly.',
 		tags: [
 			{
-				name: 'Next-js 14',
+				name: 'Next.js 14',
 				color: 'blue-text-gradient',
 			},
 
 			{
-				name: 'tailwind',
+				name: 'Tailwind',
 				color: 'pink-text-gradient',
 			},
 		],
+
 		image: carrent,
+		// image: eye,
 		source_code_link: 'https://github.com/bunyodabdullaevqa/imdb-next.git',
 	},
 	{
@@ -224,7 +225,7 @@ const projects = [
 			'This To-Do List Website is a sleek and modern task management application designed to help users organize their daily tasks efficiently. Built with React for a dynamic and interactive user experience, and styled with Tailwind CSS for a clean and responsive design, it offers intuitive features that make managing tasks effortless and enjoyable for all types of users.',
 		tags: [
 			{
-				name: 'Next.js',
+				name: 'Next.js 14',
 				color: 'blue-text-gradient',
 			},
 
@@ -234,7 +235,9 @@ const projects = [
 			},
 		],
 		image: jobit,
-		source_code_link: 'https://github.com/',
+		// image: eye,
+		source_code_link:
+			'https://github.com/bunyodabdullaevqa/TodoList-Next.js.git',
 	},
 ];
 
