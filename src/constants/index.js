@@ -22,6 +22,7 @@ import {
 	carrent,
 	jobit,
 	threejs,
+	net,
 } from '../assets';
 
 export const navLinks = [
@@ -216,8 +217,10 @@ const projects = [
 		],
 
 		image: carrent,
+		net,
 		// image: eye,
 		source_code_link: 'https://github.com/bunyodabdullaevqa/imdb-next.git',
+		second_source_code_link: 'https://imdb-clone-zeta-roan.vercel.app/',
 	},
 	{
 		name: 'TodoList',
@@ -236,8 +239,8 @@ const projects = [
 		],
 		image: jobit,
 		// image: eye,
-		source_code_link:
-			'https://github.com/bunyodabdullaevqa/TodoList-Next.js.git',
+		source_code_link: 'https://github.com/bunyodabdullaevqa/TodoList-Next.js',
+		second_source_code_link: 'https://todo-list-next-js-phi.vercel.app',
 	},
 ];
 
