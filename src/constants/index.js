@@ -120,25 +120,12 @@ const experiences = [
 		company_name: 'Independent Learning',
 		icon: meta,
 		iconBg: '#E6DEDD',
-		date: 'Dec 2024 - Present',
+		date: 'Nov 2024 - Present',
 		points: [
 			'Currently learning Next.js and React to build scalable, high-performance web applications.',
-			'Exploring features like Server-Side Rendering (SSR), Static Site Generation (SSG), and API routes in Next.js.',
-			'Practicing state management, React hooks, and component-driven architecture for dynamic user interfaces.',
-			'Working on self-initiated projects to apply knowledge and enhance hands-on experience.',
-		],
-	},
-	{
-		title: 'Web Developer',
-		company_name: 'Independent Learning',
-		icon: shopify,
-		iconBg: '#383E56',
-		date: 'Nov 2024 - Dec 2023',
-		points: [
-			'Gained a solid foundation in HTML, CSS, and JavaScript, focusing on web development fundamentals',
-			'Learned to create responsive and visually appealing web pages with modern design techniques.',
-			'Developed skills in DOM manipulation and adding interactivity to websites using JavaScript.',
-			'Built small projects to enhance practical knowledge and improve problem-solving abilities.',
+
+			'Previously completed training in HTML, CSS, and JavaScript, where I gained foundational skills in web development, including creating responsive layouts, implementing interactive UI elements, and understanding core programming concepts.',
+			'These skills laid the groundwork for my current exploration of modern frameworks like React and Next.js.',
 		],
 	},
 	{
