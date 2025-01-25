@@ -220,7 +220,7 @@ const projects = [
 		net,
 		// image: eye,
 		source_code_link: 'https://github.com/bunyodabdullaevqa/imdb-next.git',
-		second_source_code_link: 'https://imdb-clone-zeta-roan.vercel.app/',
+		second_source_code_link: 'https://imdb-bunyod.vercel.app/',
 	},
 	{
 		name: 'TodoList',
@@ -240,7 +240,7 @@ const projects = [
 		image: jobit,
 		// image: eye,
 		source_code_link: 'https://github.com/bunyodabdullaevqa/TodoList-Next.js',
-		second_source_code_link: 'https://todo-list-next-js-phi.vercel.app',
+		second_source_code_link: 'https://todolist-bunyod.vercel.app/',
 	},
 ];
 
