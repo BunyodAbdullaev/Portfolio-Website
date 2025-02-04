@@ -1,7 +1,5 @@
 import {
 	mobile,
-	backend,
-	creator,
 	web,
 	javascript,
 	typescript,
@@ -24,6 +22,8 @@ import {
 	threejs,
 	net,
 	promptopia,
+	console,
+	jmeter,
 } from '../assets';
 
 export const navLinks = [
@@ -98,6 +98,14 @@ const technologies = [
 	{
 		name: 'figma',
 		icon: figma,
+	},
+	{
+		name: 'mongodb',
+		icon: mongodb,
+	},
+	{
+		name: 'google console',
+		icon: console,
 	},
 ];
 
