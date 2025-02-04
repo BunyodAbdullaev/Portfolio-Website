@@ -23,6 +23,7 @@ import {
 	jobit,
 	threejs,
 	net,
+	promptopia,
 } from '../assets';
 
 export const navLinks = [
@@ -215,6 +216,26 @@ const projects = [
 		// image: eye,
 		source_code_link: 'https://github.com/bunyodabdullaevqa/TodoList-Next.js',
 		second_source_code_link: 'https://todolist-bunyod.vercel.app/',
+	},
+	{
+		name: 'Promptopia',
+		description:
+			'Promptopia is a Next.js-powered web application that allows users to create, edit, and explore prompts from different accounts. With a modern, responsive design and authentication features, it provides an intuitive platform for managing and discovering creative prompts. Users can seamlessly browse, contribute, and engage with a community of prompt creators.',
+		tags: [
+			{
+				name: 'next.js',
+				color: 'blue-text-gradient',
+			},
+
+			{
+				name: 'tailwind',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: promptopia,
+		// image: eye,
+		source_code_link: 'https://github.com/BunyodAbdullaev/Prompt',
+		second_source_code_link: 'https://promptopiafinal.vercel.app/',
 	},
 ];
 

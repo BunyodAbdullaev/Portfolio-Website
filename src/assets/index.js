@@ -28,6 +28,7 @@ import tesla from './company/Tesla.png';
 
 import carrent from './carrent.png';
 import jobit from './jobit.png';
+import promptopia from './promptopia.png';
 import tripguide from './tripguide.png';
 import net from './net.png';
 
@@ -61,4 +62,5 @@ export {
 	jobit,
 	tripguide,
 	net,
+	promptopia,
 };
